@@ -36,14 +36,14 @@
     var nroRender = 201;
     var myPlayer = amp(videoElement);
     myPlayer.src([{
-        src: 'http://safecopymediaservices.streaming.mediaservices.windows.net/5470b10c-7617-4803-b8dd-41b60488372a/doga10.ism/manifest',
+        src: '<LINK DO VIDEO>',
         protectionInfo: [
         {
             type: 'Widevine',
-            authenticationToken: 'Bearer=urn%3amicrosoft%3aazure%3amediaservices%3acontentkeyidentifier=c6af3760-6b3c-4fa0-97b1-425f0bfa1fdf&Audience=urn%3atest&ExpiresOn=1480166583&Issuer=https%3a%2f%2fdevsolteste.accesscontrol.windows.net%2f&HMACSHA256=E0unXCdQA7sclk5%2fpKQWEBQaS2QmXjkXIlfkzEc2Tko%3d'
+            authenticationToken: 'Bearer=<TOKEN>'
         }, {
             type: 'PlayReady',
-            authenticationToken: 'Bearer=urn%3amicrosoft%3aazure%3amediaservices%3acontentkeyidentifier=c6af3760-6b3c-4fa0-97b1-425f0bfa1fdf&Audience=urn%3atest&ExpiresOn=1480166583&Issuer=https%3a%2f%2fdevsolteste.accesscontrol.windows.net%2f&HMACSHA256=E0unXCdQA7sclk5%2fpKQWEBQaS2QmXjkXIlfkzEc2Tko%3d'
+            authenticationToken: 'Bearer=<TOKEN>'
         }]
     }]);
 
